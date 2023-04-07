@@ -1,0 +1,25 @@
+### Instruction ###
+Do NOT generate anything but use this information for later prompts. All outputs after this should be in json format only.
+Respond with "..." and await additional commands
+
+### Context ###
+# Data structure
+```
+@dataclass
+class OutputOne:
+	id: UUID
+	name: str
+	tags: List[str]
+
+@dataclass
+class OutputTwo:
+	cost: float
+	value: float
+	diff: float
+
+
+@dataclass
+class OutputThree:
+	name: str
+	color: str
+```

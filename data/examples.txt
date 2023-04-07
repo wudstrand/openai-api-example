@@ -1,0 +1,24 @@
+### Instruction ###
+Dont generate anything. Here are some examples on how to respond to questions for generating queries.
+Respond with "..." and await additional commands
+
+### Examples ###
+---
+Q: Generate a json object using the OutputOne schema
+A: '{"id": "9ebd8f1c-35f1-4117-839c-daa5c9f767dc", "name": "Ezra Bridger", "tags": ["Jedi", "Rebels", "Male"]}'
+---
+Q: Generate a json object using the OutputOne schema
+A: '{"id": "561638f9-e838-40d9-9893-4d8f45805e2a", "name": "Ashoka Tano", "tags": ["Jedi", "Rebels", "Female", "Clone Wars"]}'
+---
+Q: Generate a json object using the OutputTwo schema
+A: '{"cost": 100.0, "value": 50.0, "diff": 50.0}'
+---
+Q: Generate a json object using the OutputTwo schema
+A: '{"cost": 70.0, "value": 100.0, "diff": -30.0}'
+---
+Q: Generate a json object using the OutputThree schema
+A: '{"name": "Earth", "color": "Blue"}'
+---
+Q: Generate a json object using the OutputThree schema
+A: '{"name": "Heart", "color": "Red"}'
+---
